@@ -1,0 +1,235 @@
+
+#navbar #red:hover, #navbar #red:focus {
+	background: #ba2b2b;
+	color: ghostwhite;
+}
+
+#navbar #red:hover~#border, #navbar #red:focus~#border {
+	background: #ba2b2b;
+}
+
+#navbar .orange:hover, #navbar .orange:focus {
+	background: #e88827;
+	color: ghostwhite;
+}
+
+#navbar .d-orange:hover~#border, #navbar .d-orange:focus~#border {
+	background: #e88827;
+}
+
+#navbar .yellow:hover, #navbar .yellow:focus {
+	background: #e0b700;
+	color: ghostwhite;
+}
+
+#navbar .d-yellow:hover~#border, #navbar .d-yellow:focus~#border {
+	background: #e0b700;
+}
+
+#navbar .green:hover, #navbar .green:focus {
+	background: #5f9e28;
+	color: ghostwhite;
+}
+
+#navbar .d-green:hover~#border, #navbar .d-green:focus~#border {
+	background: #5f9e28;
+}
+
+#navbar .blue:hover, #navbar .blue:focus {
+	background: #389fc2;
+	color: ghostwhite;
+}
+
+#navbar .d-blue:hover~#border, #navbar .d-blue:focus~#border {
+	background: #389fc2;
+}
+
+#navbar #indigo {
+	background: #1454a8;
+	color: ghostwhite;
+}
+
+#navbar #purple:hover, #navbar #purple:focus {
+	background: #6028a8;
+	color: ghostwhite;
+}
+
+#navbar #purple:hover~#border, #navbar #purple:focus~#border {
+	background: #6028a8;
+}
+
+#border {
+	height: 7px;
+	width: 100%;
+	background: #1454a8;
+	position: relative;
+	top: -3px;
+	transition-duration: 0.4s;
+}
+
+@keyframes slide3 {
+	0% {
+		right: 100%;
+	}
+
+	16.667% {
+		right: 0;
+	}
+
+	33.333% {
+		right: 0;
+	}
+
+	50% {
+		right: -100%;
+	}
+
+
+	100% {
+		right: -100%;
+	}
+
+}
+
+.b-content {
+	position: relative;
+	z-index: 1;
+}
+
+.slideshow {
+	width: 1250px;
+	text-align: center;
+	overflow: hidden;
+	margin: 5% auto 5% auto;
+	position: relative;
+}
+
+.slides {
+	display: flex;
+	height: 625px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slides img {
+	width: 100%;
+	position: absolute;
+}
+
+@keyframes slide {
+	0% {
+		right: 100%;
+	}
+
+	16.667% {
+		right: 0;
+	}
+
+	33.333% {
+		right: 0;
+	}
+
+	50% {
+		right: -100%;
+	}
+
+
+	100% {
+		right: -100%;
+	}
+
+}
+
+#slide1 {
+	animation: slide 18s ease infinite;
+}
+
+#slide2 {
+	animation: slide 18s ease infinite;
+	animation-delay: 6s;
+}
+
+#slide3 {
+	animation: slide 18s ease infinite;
+	animation-delay: 12s;
+}
+
+.text {
+	position: relative;
+	z-index: 5;
+	color: teal;
+	line-height: 3em;
+	padding: 0 5% 0 5%;
+}
+
+.s-text h1 {
+	text-align: center;
+	position: relative;
+}
+
+.s-text p {
+	line-height: 5em;
+}
+
+@media screen and (max-width: 815px) {
+	.column {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.slideshow {
+		width: 800px;
+	}
+
+	.slides {
+		height: 400px;
+	}
+}
+
+.c-img {
+	position: relative;
+	width: 100%;
+}
+
+#p-i1 {
+	width: 60%;
+	float: left;
+	margin: 0 5% 0 0;
+}
+
+#p-i2 {
+	width: 100%;
+}
+
+.column:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.column {
+	color: teal;
+	font-size: 16px;
+	line-height: 3em;
+	margin-left: 20px;
+	z-index: 1;
+	position: relative;
+}
+
+.column h1, .column h2, .welcome h1 {
+	line-height: 1.5em;
+}
+
+#leftcolumn {
+	width: 60%;
+	float: left;
+	position: relative;
+	padding: 20px 3.5%;
+}
+
+#rightcolumn {
+	width: 36%;
+	float: left;
+	padding: 35px 3.5%;
+}

@@ -1,0 +1,116 @@
+#navbar #red:hover, #navbar #red:focus {
+	background: #ba2b2b;
+	color: ghostwhite;
+}
+
+#navbar #red:hover~#border, #navbar #red:focus~#border {
+	background: #ba2b2b;
+}
+
+#navbar .orange:hover, #navbar .orange:focus {
+	background: #e88827;
+	color: ghostwhite;
+}
+
+#navbar .d-orange:hover~#border, #navbar .d-orange:focus~#border {
+	background: #e88827;
+}
+
+#navbar .yellow {
+	background: #e0b700;
+	color: ghostwhite;
+}
+
+#navbar .green:hover, #navbar .green:focus {
+	background: #5f9e28;
+	color: ghostwhite;
+}
+
+#navbar .d-green:hover~#border, #navbar .d-green:focus~#border {
+	background: #5f9e28;
+}
+
+#navbar .blue:hover, #navbar .blue:focus {
+	background: #389fc2;
+	color: ghostwhite;
+}
+
+#navbar .d-blue:hover~#border, #navbar .d-blue:focus~#border {
+	background: #389fc2;
+}
+
+#navbar #indigo:hover, #navbar #indigo:focus {
+	background: #1454a8;
+	color: ghostwhite;
+}
+
+#navbar #indigo:hover~#border, #navbar #indigo:focus~#border {
+	background: #1454a8;
+}
+
+#navbar #purple:hover, #navbar #purple:focus {
+	background: #6028a8;
+	color: ghostwhite;
+}
+
+#navbar #purple:hover~#border, #navbar #purple:focus~#border {
+	background: #6028a8;
+}
+
+#border {
+	height: 7px;
+	width: 100%;
+	background: #e0b700;
+	position: relative;
+	top: -3px;
+	transition-duration: 0.4s;
+}
+
+.b-content {
+	color: teal;
+	margin: 0 10%;
+}
+
+.b-content h1 {
+	text-align: center;
+}
+
+.b-content p {
+	line-height: 3em;
+}
+
+.boxes {
+	text-align: center;
+}
+
+.boxes img {
+	width: 100%;
+}
+
+.b-contain {
+	padding: 20px;
+	margin: 10px;
+	position: relative;
+	display: inline-block;
+	width: 18%;
+	height: 250px;
+	background: ghostwhite;
+	text-decoration: none;
+}
+
+.active p {
+	color: lightslategrey;
+}
+
+.inactive p {
+	color: red;
+}
+
+#att {
+	background: ghostwhite;
+	width: 75%;
+	margin: auto;
+	color: lightslategrey;
+	padding: 2%;
+
+}

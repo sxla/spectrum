@@ -1,0 +1,126 @@
+
+/* SPECTRUM COMMUNITY PAGE STYLE SHEET*/
+
+#community {
+	text-align: center;
+	padding: 50px;
+	color: teal;
+}
+
+#chat {
+	border: none;
+	width: 90%;
+	height: 500px;
+	position: relative;
+	transform: translateX(-50%);
+	left: 50%;
+	top: 25%;
+	z-index: 1;
+}
+
+#navbar #red:hover, #navbar #red:focus {
+	background: #ba2b2b;
+	color: ghostwhite;
+}
+
+#navbar .orange {
+	background: #e88827;
+	color: ghostwhite;
+}
+
+#navbar #red:hover~#border, #navbar #red:focus~#border {
+	background: #ba2b2b;
+}
+
+#navbar .yellow:hover, #navbar .yellow:focus {
+	background: #e3c500;
+	color: ghostwhite;
+}
+
+#navbar .d-yellow:hover~#border, #navbar .d-yellow:focus~#border {
+	background: #e3c500;
+}
+
+#navbar .green:hover, #navbar .green:focus {
+	background: #5f9e28;
+	color: ghostwhite;
+}
+
+#navbar .d-green:hover~#border, #navbar .d-green:focus~#border {
+	background: #5f9e28;
+}
+
+#navbar .blue:hover, #navbar .blue:focus {
+	background: #389fc2;
+	color: ghostwhite;
+}
+
+#navbar .d-blue:hover~#border, #navbar .d-blue:focus~#border {
+	background: #389fc2;
+}
+
+#navbar #indigo:hover, #navbar #indigo:focus {
+	background: #1454a8;
+	color: ghostwhite;
+}
+
+#navbar #indigo:hover~#border, #navbar #indigo:focus~#border {
+	background: #1454a8;
+}
+
+#navbar #purple:hover, #navbar #purple:focus {
+	background: #6028a8;
+	color: ghostwhite;
+}
+
+#navbar #purple:hover~#border, #navbar #purple:focus~#border {
+	background: #6028a8;
+}
+
+#border {
+	height: 7px;
+	width: 100%;
+	background: #e88827;
+	position: relative;
+	top: -3px;
+	transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 815px) {
+
+	#navbar a, #navbar p, .dropdown .dropbtn {
+		font-size: 12px;
+		padding: 10px;
+		min-width: 65px;
+	}
+
+	#navbar .content {
+		min-width: 120px;
+		max-width: 180px;
+	}
+
+	.footer {
+		font-size: 12px;
+	}
+
+	#logo {
+		right: -20%;
+		height: 150px;
+	}
+
+	.header h1 {
+		font-size: 25px;
+		letter-spacing: 4px;
+	}
+
+	#navbar .right {
+		float: left;
+	}
+
+	#top img {
+		width: 75px;
+	}
+}
+
+
+
