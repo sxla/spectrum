@@ -65,7 +65,6 @@ body {
 .dropdown .dropbtn:focus {
 	background-color: lightslategrey;
 	color: ghostwhite;
-	cursor: pointer;
 }
 
 #navbar .content {
